@@ -1,0 +1,26 @@
+TASK 1: IRIS FLOWER CLASSIFICATION - RESULTS SUMMARY
+=======================================================
+
+Dataset: 150 samples, 4 features, 3 classes
+
+Model comparison:
+              Model  Test Accuracy  CV Mean Accuracy
+   SVM (RBF kernel)       0.966667          0.966667
+Logistic Regression       0.933333          0.960000
+K-Nearest Neighbors       0.933333          0.960000
+      Decision Tree       0.933333          0.953333
+      Random Forest       0.900000          0.966667
+
+Best model: SVM (RBF kernel)
+Test accuracy: 0.9667
+
+Classification report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
